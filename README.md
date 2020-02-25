@@ -11,7 +11,7 @@
 
 1. 이 리포지토리를 로컬 저장소로 복제합니다.
 ```
-git clone https://github.com/nutyworks/Discordgen
+git clone https://github.com/nutyworks/Discordgen.git
 ```
 2. 다음 명령을 실행합니다.
 ```
@@ -20,5 +20,5 @@ mvn install
 ```
 3. `target/` 폴더에서 `Discordgen-0.1.0.jar-with-dependencies.jar`을 실행합니다.
 ```
-java -jar Discordgen.jar <your bot token>
+java -jar Discordgen-0.1.0.jar-with-dependencies.jar <your bot token>
 ```
