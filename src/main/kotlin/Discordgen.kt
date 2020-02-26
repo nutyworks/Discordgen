@@ -272,7 +272,7 @@ class DiscordgenListenerAdapter : ListenerAdapter() {
                 }
             } else {
                 val dimigenUsage = EmbedBuilder()
-                        .addField("도움말", "디미젠 [문제 번호]", true)
+                        .addField("도움말", "디미젠 `문제 번호`", true)
                         .setColor(0x7070FF)
                         .build()
                 event.textChannel.sendMessage(dimigenUsage).queue()
