@@ -187,7 +187,7 @@ class DiscordgenListenerAdapter : ListenerAdapter() {
                         val dimigenHelper = EmbedBuilder()
                                 .setColor(0x7070FF)
                                 .setTitle("코드젠 문제 #$problemNumber", "http://codegen.dimigo.hs.kr/problem.php?id=$problemNumber")
-                                .addField("분류", solution.type.str, true)
+                                .addField("분류", solution.type.str, true) /*
                                 .apply {
                                     val res = httpGet("http://codegen.dimigo.hs.kr/problem.php?id=$problemNumber")
 
@@ -204,7 +204,7 @@ class DiscordgenListenerAdapter : ListenerAdapter() {
                                     } else {
                                         addField("AC/제출", "${acceptedMatch[2]}/${acceptedMatch[1]}", true)
                                     }
-                                }
+                                } */
                                 .addField("사유", solution.reason, false)
                                 .apply {
                                     var str = ""
